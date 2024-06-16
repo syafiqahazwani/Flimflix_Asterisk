@@ -1,0 +1,868 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Filmflix Asterisk</title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="../../images/HomePage/logo.png" type="image/svg+xml">
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="../../css/style.css">
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+  <header class="header" data-header>
+    <div class="container">
+      <div class="overlay" data-overlay></div>
+      <a href="" class="logo">
+        <img src="../../images/HomePage/Design.png" alt="Film logo">
+      </a>
+      <div class="header-actions">
+        <button class="search-btn">
+          <ion-icon name="search-outline"></ion-icon>
+        </button>
+        <div class="lang-wrapper">
+          <label for="language">
+            <ion-icon name="globe-outline"></ion-icon>
+          </label>
+        </div>
+        <button class="btn btn-primary">Welcome</button>
+      </div>
+      <button class="menu-open-btn" data-menu-open-btn>
+        <ion-icon name="reorder-two"></ion-icon>
+      </button>
+      <nav class="navbar" data-navbar>
+        <div class="navbar-top">
+          <button class="menu-close-btn" data-menu-close-btn>
+            <ion-icon name="close-outline"></ion-icon>
+          </button>
+        </div>
+
+        <ul class="navbar-list">
+          <li>
+            <a href="../../HOME PAGE.html" class="navbar-link"><b>HOME PAGE</b></a></li>
+          <li>
+            <a href="#" class="menu-item" style="color: rgb(240, 240, 240)"><b>MOVIE COLLECTION</b></a>
+            <ul class="sub-menu">
+              <li class="menu-item"><a href="../Anime Movie/ANIME MOVIE.html"><b>ANIME MOVIE</b></a></li>
+              <li class="menu-item"><a href="../Japanese Movie/JAPANESE MOVIE.html"><b>JAPANESE MOVIE</b></a></li>
+              <li class="menu-item"><a href="../Korea Movie/KOREA MOVIE.html"><b>KOREA MOVIE</b></a></li>
+              <li class="menu-item"><a href="../English Movie/ENGLISH MOVIE.html"><b>ENGLISH MOVIE</b></a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#" class="menu-item" style="color: rgb(240, 240, 240)"><b>MOVIE SERIES</b></a>
+            <ul class="sub-menu">
+              <li class="menu-item"><a href="../Anime Movie Series/ANIME MOVIE SERIES.html"><b>ANIME MOVIE SERIES</b></a></li>
+            </ul>
+          </li>
+        </ul>
+
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <article>
+
+      <!-- 
+        - #TOP RATED
+      -->
+<br>
+<br>
+<br>
+<br>
+<br>
+      <section class="top-rated">
+        <div class="container">
+
+          <p class="section-subtitle">FAVOIRATE ALL THE TIME</p>
+          <h2 class="h2 section-title">Anime Movie</h2>
+
+          <ul class="filter-list">
+            <li>
+              <button class="filter-btn">Movies</button>
+            </li>
+            <li>
+              <button class="filter-btn">Films</button>
+            </li>
+            <li>
+              <button class="filter-btn">Collection</button>
+            </li>
+            <li>
+              <button class="filter-btn">Series</button>
+            </li>
+          </ul>
+          <ul class="movies-list">
+
+            <!--ITEM 1-->
+            <li>
+                <div class="movie-card">
+                  <a href="#">
+                    <figure class="card-banner">
+                      <img src="../../images/Anime Movie/Movie/Ao No Exorcist Movie.jpg" alt="">
+                    </figure>
+                  </a>
+                  <div class="title-wrapper">
+                    <a href="../../html/Anime Movie/Movie Ao no Exorcist Movie.html">
+                      <h3 class="card-title">Ao no Exorcist Movie</h3>
+                    </a>
+                    <time datetime="">2012</time>
+                  </div>
+                  <div class="card-meta">
+                    <div class="badge badge-outline">100K</div>
+                    <div class="duration">
+                      <ion-icon name="time-outline"></ion-icon>
+                      <time datetime="">1 hour 28 min</time>
+                    </div>
+                    <div class="rating">
+                      <ion-icon name="star"></ion-icon>
+                      <data>100%</data>
+                    </div>
+                  </div>
+                </div>
+              </li>
+
+            <!--ITEM 2-->
+            <li>
+              <div class="movie-card">
+                <a href="#">
+                  <figure class="card-banner">
+                    <img src="../../images/Anime Movie/Movie/Hal Movie.jpg" alt="">
+                  </figure>
+                </a>
+                <div class="title-wrapper">
+                  <a href="../../html/Anime Movie/Movie Hal.html">
+                    <h3 class="card-title">Hal</h3>
+                  </a>
+                  <time datetime="">2013</time>
+                </div>
+                <div class="card-meta">
+                  <div class="badge badge-outline">100K</div>
+                  <div class="duration">
+                    <ion-icon name="time-outline"></ion-icon>
+                    <time datetime="">1 hour</time>
+                  </div>
+                  <div class="rating">
+                    <ion-icon name="star"></ion-icon>
+                    <data>100%</data>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <!--ITEM 3-->
+            <li>
+              <div class="movie-card">
+                <a href="#">
+                  <figure class="card-banner">
+                    <img src="../../images/Anime Movie/Movie/Steins;Gate Movie.jpg" alt="">
+                  </figure>
+                </a>
+                <div class="title-wrapper">
+                  <a href="../../html/Anime Movie/Movie Steins Gate Movie.html">
+                    <h3 class="card-title">Steins;Gate Movie: Fuka Ryouiki no Déjà vu</h3>
+                  </a>
+                  <time datetime="">2013</time>
+                </div>
+                <div class="card-meta">
+                  <div class="badge badge-outline">100K</div>
+                  <div class="duration">
+                    <ion-icon name="time-outline"></ion-icon>
+                    <time datetime="">1 hour 30 min</time>
+                  </div>
+                  <div class="rating">
+                    <ion-icon name="star"></ion-icon>
+                    <data>100%</data>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+              <!--ITEM 4-->
+            <li>
+              <div class="movie-card">
+                <a href="#">
+                  <figure class="card-banner">
+                    <img src="../../images/Anime Movie/Movie/Kokoro ga Sakebitagatterunda.jpg" alt="">
+                  </figure>
+                </a>
+                <div class="title-wrapper">
+                  <a href="../../html/Anime Movie/Movie Kokoro ga Sakebitagatterunda.html">
+                    <h3 class="card-title">Kokoro ga Sakebitagatterunda.</h3>
+                  </a>
+                  <time datetime="">2015</time>
+                </div>
+                <div class="card-meta">
+                  <div class="badge badge-outline">100K</div>
+                  <div class="duration">
+                    <ion-icon name="time-outline"></ion-icon>
+                    <time datetime="">1 hour 59 min</time>
+                  </div>
+                  <div class="rating">
+                    <ion-icon name="star"></ion-icon>
+                    <data>100%</data>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <!--ITEM 5-->
+            <li>
+                <div class="movie-card">
+                  <a href="#">
+                    <figure class="card-banner">
+                      <img src="../../images/Anime Movie/Movie/Kimi No Na Wa.png" alt="">
+                    </figure>
+                  </a>
+                  <div class="title-wrapper">
+                    <a href="../../html/Anime Movie/Movie Kimi no Na wa.html">
+                      <h3 class="card-title">Kimi no Na wa.</h3>
+                    </a>
+                    <time datetime="">2016</time>
+                  </div>
+                  <div class="card-meta">
+                    <div class="badge badge-outline">100K</div>
+                    <div class="duration">
+                      <ion-icon name="time-outline"></ion-icon>
+                      <time datetime="">1 hour 46 min</time>
+                    </div>
+                    <div class="rating">
+                      <ion-icon name="star"></ion-icon>
+                      <data>100%</data>
+                    </div>
+                  </div>
+                </div>
+              </li>
+
+              <!--ITEM 6-->
+              <li>
+                <div class="movie-card">
+                  <a href="#">
+                    <figure class="card-banner">
+                      <img src="../../images/Anime Movie/Movie/Koe no Katachi.jpg" alt="">
+                    </figure>
+                  </a>
+                  <div class="title-wrapper">
+                    <a href="../../html/Anime Movie/Movie Koe no Katachi.html">
+                      <h3 class="card-title">Koe no Katachi</h3>
+                    </a>
+                    <time datetime="">2016</time>
+                  </div>
+                  <div class="card-meta">
+                    <div class="badge badge-outline">100K</div>
+                    <div class="duration">
+                      <ion-icon name="time-outline"></ion-icon>
+                      <time datetime="">2 hour 10 min</time>
+                    </div>
+                    <div class="rating">
+                      <ion-icon name="star"></ion-icon>
+                      <data>100%</data>
+                    </div>
+                  </div>
+                </div>
+              </li>
+
+              <!--ITEM 7-->
+              <li>
+                <div class="movie-card">
+                  <a href="#">
+                    <figure class="card-banner">
+                      <img src="../../images/Anime Movie/Movie/Orange Movie.jpg" alt="">
+                    </figure>
+                  </a>
+                  <div class="title-wrapper">
+                    <a href="../../html/Anime Movie/Movie Orange Movie.html">
+                      <h3 class="card-title">Orange: Mirai</h3>
+                    </a>
+                    <time datetime="">2016</time>
+                  </div>
+                  <div class="card-meta">
+                    <div class="badge badge-outline">100K</div>
+                    <div class="duration">
+                      <ion-icon name="time-outline"></ion-icon>
+                      <time datetime="">1 hour 02 min</time>
+                    </div>
+                    <div class="rating">
+                      <ion-icon name="star"></ion-icon>
+                      <data>100%</data>
+                    </div>
+                  </div>
+                </div>
+              </li>
+
+              <!--ITEM 8-->
+              <li>
+                <div class="movie-card">
+                  <a href="#">
+                    <figure class="card-banner">
+                      <img src="../../images/Anime Movie/Movie/Kuroshitsuji Movie.jpg" alt="">
+                    </figure>
+                  </a>
+                  <div class="title-wrapper">
+                    <a href="../../html/Anime Movie/Movie Kuroshitsuji Movie.html">
+                      <h3 class="card-title">Kuroshitsuji Movie: Book of the Atlantic</h3>
+                    </a>
+                    <time datetime="">2017</time>
+                  </div>
+                  <div class="card-meta">
+                    <div class="badge badge-outline">100K</div>
+                    <div class="duration">
+                      <ion-icon name="time-outline"></ion-icon>
+                      <time datetime="">1 hour 40 min</time>
+                    </div>
+                    <div class="rating">
+                      <ion-icon name="star"></ion-icon>
+                      <data>100%</data>
+                    </div>
+                  </div>
+                </div>
+              </li>
+
+              <!--ITEM 9-->
+              <li>
+                <div class="movie-card">
+                  <a href="#">
+                    <figure class="card-banner">
+                      <img src="../../images/Anime Movie/Movie/Mahouka Koukou no Rettousei Movie.jpg" alt="">
+                    </figure>
+                  </a>
+                  <div class="title-wrapper">
+                    <a href="../../html/Anime Movie/Movie Mahouka Koukou no Rettousei Movie.html">
+                      <h3 class="card-title">Mahouka Koukou no Rettousei Movie: Hoshi wo Yobu Shoujo</h3>
+                    </a>
+                    <time datetime="">2017</time>
+                  </div>
+                  <div class="card-meta">
+                    <div class="badge badge-outline">100K</div>
+                    <div class="duration">
+                      <ion-icon name="time-outline"></ion-icon>
+                      <time datetime="">1 hour 30 min</time>
+                    </div>
+                    <div class="rating">
+                      <ion-icon name="star"></ion-icon>
+                      <data>100%</data>
+                    </div>
+                  </div>
+                </div>
+              </li>
+
+              <!--ITEM 10-->
+              <li>
+                <div class="movie-card">
+                  <a href="#">
+                    <figure class="card-banner">
+                      <img src="../../images/Anime Movie/Movie/ReZero kara Hajimeru Isekai Seikatsu Movie.jpg" alt="">
+                    </figure>
+                  </a>
+                  <div class="title-wrapper">
+                    <a href="../../html/Anime Movie/Movie Re Zero kara Hajimeru Isekai Seikatsu Movie.html">
+                      <h3 class="card-title">Re:Zero kara Hajimeru Isekai Seikatsu - Memory Snow</h3>
+                    </a>
+                    <time datetime="">2018</time>
+                  </div>
+                  <div class="card-meta">
+                    <div class="badge badge-outline">100K</div>
+                    <div class="duration">
+                      <ion-icon name="time-outline"></ion-icon>
+                      <time datetime="">1 hour</time>
+                    </div>
+                    <div class="rating">
+                      <ion-icon name="star"></ion-icon>
+                      <data>100%</data>
+                    </div>
+                  </div>
+                </div>
+              </li>
+
+              <!--ITEM 11-->
+              <li>
+                <div class="movie-card">
+                  <a href="#">
+                    <figure class="card-banner">
+                      <img src="../../images/Anime Movie/Movie/Kono Subarashii Sekai ni Shukufuku wo! Movie.jpg" alt="">
+                    </figure>
+                  </a>
+                  <div class="title-wrapper">
+                    <a href="../../html/Anime Movie/Movie Kono Subarashii Sekai ni Shukufuku wo Movie.html">
+                      <h3 class="card-title">Kono Subarashii Sekai ni Shukufuku wo! Movie: Kurenai Densetsu</h3>
+                    </a>
+                    <time datetime="">2019</time>
+                  </div>
+                  <div class="card-meta">
+                    <div class="badge badge-outline">100K</div>
+                    <div class="duration">
+                      <ion-icon name="time-outline"></ion-icon>
+                      <time datetime="">1 hour 30 min</time>
+                    </div>
+                    <div class="rating">
+                      <ion-icon name="star"></ion-icon>
+                      <data>100%</data>
+                    </div>
+                  </div>
+                </div>
+              </li>
+
+              <!--ITEM 12-->
+              <li>
+                <div class="movie-card">
+                  <a href="#">
+                    <figure class="card-banner">
+                      <img src="../../images/Anime Movie/Movie/Ni no Kuni.jpg" alt="">
+                    </figure>
+                  </a>
+                  <div class="title-wrapper">
+                    <a href="../../html/Anime Movie/Movie Ni no Kuni.html">
+                      <h3 class="card-title">Ni no Kuni</h3>
+                    </a>
+                    <time datetime="">2019</time>
+                  </div>
+                  <div class="card-meta">
+                    <div class="badge badge-outline">100K</div>
+                    <div class="duration">
+                      <ion-icon name="time-outline"></ion-icon>
+                      <time datetime="">1 hour 46 min</time>
+                    </div>
+                    <div class="rating">
+                      <ion-icon name="star"></ion-icon>
+                      <data>100%</data>
+                    </div>
+                  </div>
+                </div>
+              </li>
+
+               <!--ITEM 13-->
+               <li>
+                <div class="movie-card">
+                  <a href="#">
+                    <figure class="card-banner">
+                      <img src="../../images/Anime Movie/Movie/Sora no Aosa wo Shiru Hito yo.jpg" alt="">
+                    </figure>
+                  </a>
+                  <div class="title-wrapper">
+                    <a href="../../html/Anime Movie/Movie Sora no Aosa wo Shiru Hito yo.html">
+                      <h3 class="card-title">Sora no Aosa wo Shiru Hito yo</h3>
+                    </a>
+                    <time datetime="">2019</time>
+                  </div>
+                  <div class="card-meta">
+                    <div class="badge badge-outline">100K</div>
+                    <div class="duration">
+                      <ion-icon name="time-outline"></ion-icon>
+                      <time datetime="">1 hour 46 min</time>
+                    </div>
+                    <div class="rating">
+                      <ion-icon name="star"></ion-icon>
+                      <data>100%</data>
+                    </div>
+                  </div>
+                </div>
+              </li>
+
+              <!--ITEM 14-->
+              <li>
+                <div class="movie-card">
+                  <a href="#">
+                    <figure class="card-banner">
+                      <img src="../../images/Anime Movie/Movie/Tenki no ko.jpg" alt="">
+                    </figure>
+                  </a>
+                  <div class="title-wrapper">
+                    <a href="../../html/Anime Movie/Movie Tenki no Ko.html">
+                      <h3 class="card-title">Tenki no Ko</h3>
+                    </a>
+                    <time datetime="">2019</time>
+                  </div>
+                  <div class="card-meta">
+                    <div class="badge badge-outline">100K</div>
+                    <div class="duration">
+                      <ion-icon name="time-outline"></ion-icon>
+                      <time datetime="">1 hour 52 min</time>
+                    </div>
+                    <div class="rating">
+                      <ion-icon name="star"></ion-icon>
+                      <data>100%</data>
+                    </div>
+                  </div>
+                </div>
+              </li>
+
+            <!--ITEM 15-->
+            <li>
+                <div class="movie-card">
+                  <a href="#">
+                    <figure class="card-banner">
+                      <img src="../../images/Anime Movie/Movie/Kyochuu Rettou.jpg" alt="">
+                    </figure>
+                  </a>
+                  <div class="title-wrapper">
+                    <a href="../../html/Anime Movie/Movie Kyochuu Rettou Movie.html">
+                      <h3 class="card-title">Kyochuu Rettou Movie</h3>
+                    </a>
+                    <time datetime="">2020</time>
+                  </div>
+                  <div class="card-meta">
+                    <div class="badge badge-outline">100K</div>
+                    <div class="duration">
+                      <ion-icon name="time-outline"></ion-icon>
+                      <time datetime="">1 hour 16 min</time>
+                    </div>
+                    <div class="rating">
+                      <ion-icon name="star"></ion-icon>
+                      <data>100%</data>
+                    </div>
+                  </div>
+                </div>
+              </li>
+
+              <!--ITEM 16-->
+            <li>
+                <div class="movie-card">
+                  <a href="#">
+                    <figure class="card-banner">
+                      <img src="../../images/Anime Movie/Movie/Omoi Omoware Furi Furare.jpg" alt="">
+                    </figure>
+                  </a>
+                  <div class="title-wrapper">
+                    <a href="../../html/Anime Movie/Movie Omoi, Omoware, Furi, Furare.html">
+                      <h3 class="card-title">Omoi, Omoware, Furi, Furare</h3>
+                    </a>
+                    <time datetime="">2020</time>
+                  </div>
+                  <div class="card-meta">
+                    <div class="badge badge-outline">100K</div>
+                    <div class="duration">
+                      <ion-icon name="time-outline"></ion-icon>
+                      <time datetime="">1 hour 42 min</time>
+                    </div>
+                    <div class="rating">
+                      <ion-icon name="star"></ion-icon>
+                      <data>100%</data>
+                    </div>
+                  </div>
+                </div>
+              </li>
+
+              <!--ITEM 17-->
+              <li>
+                <div class="movie-card">
+                  <a href="#">
+                    <figure class="card-banner">
+                      <img src="../../images/Anime Movie/Movie/Kimetsu no Yaiba Movie.jpeg" alt="">
+                    </figure>
+                  </a>
+                  <div class="title-wrapper">
+                    <a href="../../html/Anime Movie/Movie Kimetsu no Yaiba Movie.html">
+                      <h3 class="card-title">Kimetsu no Yaiba Movie: Mugen Ressha-hen</h3>
+                    </a>
+                    <time datetime="">2020</time>
+                  </div>
+                  <div class="card-meta">
+                    <div class="badge badge-outline">100K</div>
+                    <div class="duration">
+                      <ion-icon name="time-outline"></ion-icon>
+                      <time datetime="">1 hour 56 min</time>
+                    </div>
+                    <div class="rating">
+                      <ion-icon name="star"></ion-icon>
+                      <data>100%</data>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              
+              <!--ITEM 18-->
+              <li>
+                <div class="movie-card">
+                  <a href="#">
+                    <figure class="card-banner">
+                      <img src="../../images/Anime Movie/Movie/Jujutsu no Kaisen 0.png" alt="">
+                    </figure>
+                  </a>
+                  <div class="title-wrapper">
+                    <a href="../../html/Anime Movie/Movie Jujutsu Kaisen Movie.html">
+                      <h3 class="card-title">Jujutsu Kaisen 0 Movie</h3>
+                    </a>
+                    <time datetime="">2021</time>
+                  </div>
+                  <div class="card-meta">
+                    <div class="badge badge-outline">100K</div>
+                    <div class="duration">
+                      <ion-icon name="time-outline"></ion-icon>
+                      <time datetime="">1 hour 44 min</time>
+                    </div>
+                    <div class="rating">
+                      <ion-icon name="star"></ion-icon>
+                      <data>100%</data>
+                    </div>
+                  </div>
+                </div>
+              </li>
+
+              <!--ITEM 19-->
+              <li>
+                <div class="movie-card">
+                  <a href="#">
+                    <figure class="card-banner">
+                      <img src="../../images/Anime Movie/Movie/Goodbye, Don Glees!.jpg" alt="">
+                    </figure>
+                  </a>
+                  <div class="title-wrapper">
+                    <a href="../../html/Anime Movie/Movie Goodbye, Don Glees.html">
+                      <h3 class="card-title">Goodbye, Don Glees!</h3>
+                    </a>
+                    <time datetime="">2022</time>
+                  </div>
+                  <div class="card-meta">
+                    <div class="badge badge-outline">100K</div>
+                    <div class="duration">
+                      <ion-icon name="time-outline"></ion-icon>
+                      <time datetime="">1 hour 35 min</time>
+                    </div>
+                    <div class="rating">
+                      <ion-icon name="star"></ion-icon>
+                      <data>100%</data>
+                    </div>
+                  </div>
+                </div>
+              </li>
+
+              <!--ITEM 20-->
+              <li>
+                <div class="movie-card">
+                  <a href="#">
+                    <figure class="card-banner">
+                      <img src="../../images/Anime Movie/Movie/Bubble Movie.webp" alt="">
+                    </figure>
+                  </a>
+                  <div class="title-wrapper">
+                    <a href="../../html/Anime Movie/Movie Bubble.html">
+                      <h3 class="card-title">Bubble</h3>
+                    </a>
+                    <time datetime="">2022</time>
+                  </div>
+                  <div class="card-meta">
+                    <div class="badge badge-outline">100K</div>
+                    <div class="duration">
+                      <ion-icon name="time-outline"></ion-icon>
+                      <time datetime="">1 hour 40 min</time>
+                    </div>
+                    <div class="rating">
+                      <ion-icon name="star"></ion-icon>
+                      <data>100%</data>
+                    </div>
+                  </div>
+                </div>
+              </li>
+
+              <!--ITEM 21-->
+              <li>
+                <div class="movie-card">
+                  <a href="#">
+                    <figure class="card-banner">
+                      <img src="../../images/Anime Movie/Movie/Isekai Quartet Movie.jpg" alt="">
+                    </figure>
+                  </a>
+                  <div class="title-wrapper">
+                    <a href="../../html/Anime Movie/Movie Isekai Quartet Movie.html">
+                      <h3 class="card-title">Isekai Quartet Movie: Another World</h3>
+                    </a>
+                    <time datetime="">2022</time>
+                  </div>
+                  <div class="card-meta">
+                    <div class="badge badge-outline">100K</div>
+                    <div class="duration">
+                      <ion-icon name="time-outline"></ion-icon>
+                      <time datetime="">1 hour 52 min</time>
+                    </div>
+                    <div class="rating">
+                      <ion-icon name="star"></ion-icon>
+                      <data>100%</data>
+                    </div>
+                  </div>
+                </div>
+              </li>
+
+              <!--ITEM 22-->
+              <li>
+                <div class="movie-card">
+                  <a href="#">
+                    <figure class="card-banner">
+                      <img src="../../images/Anime Movie/Movie/5-toubun no Hanayome Movie.jpg" alt="">
+                    </figure>
+                  </a>
+                  <div class="title-wrapper">
+                    <a href="../../html/Anime Movie/Movie 5-toubun no Hanayome Movie.html">
+                      <h3 class="card-title">5-toubun no Hanayome Movie</h3>
+                    </a>
+                    <time datetime="">2022</time>
+                  </div>
+                  <div class="card-meta">
+                    <div class="badge badge-outline">100K</div>
+                    <div class="duration">
+                      <ion-icon name="time-outline"></ion-icon>
+                      <time datetime="">2 hour 16 min</time>
+                    </div>
+                    <div class="rating">
+                      <ion-icon name="star"></ion-icon>
+                      <data>100%</data>
+                    </div>
+                  </div>
+                </div>
+              </li>
+
+              <!--ITEM 23-->
+              <li>
+                <div class="movie-card">
+                  <a href="#">
+                    <figure class="card-banner">
+                      <img src="../../images/Anime Movie/Movie/Suzume no Tojimari.jpg" alt="">
+                    </figure>
+                  </a>
+                  <div class="title-wrapper">
+                    <a href="../../html/Anime Movie/Movie Suzume no Tojimari.html">
+                      <h3 class="card-title">Suzume no Tojimari</h3>
+                    </a>
+                    <time datetime="">2022</time>
+                  </div>
+                  <div class="card-meta">
+                    <div class="badge badge-outline">100K</div>
+                    <div class="duration">
+                      <ion-icon name="time-outline"></ion-icon>
+                      <time datetime="">2 hour 01 min</time>
+                    </div>
+                    <div class="rating">
+                      <ion-icon name="star"></ion-icon>
+                      <data>100%</data>
+                    </div>
+                  </div>
+                </div>
+              </li>
+
+              <!--ITEM 24-->
+              <li>
+                <div class="movie-card">
+                  <a href="#">
+                    <figure class="card-banner">
+                      <img src="../../images/Anime Movie/Movie/Black Clover Movie.jpg" alt="">
+                    </figure>
+                  </a>
+                  <div class="title-wrapper">
+                    <a href="../../html/Anime Movie/Movie Black Clover Movie.html">
+                      <h3 class="card-title">Black Clover: Mahou Tei no Ken</h3>
+                    </a>
+                    <time datetime="">2023</time>
+                  </div>
+                  <div class="card-meta">
+                    <div class="badge badge-outline">100K</div>
+                    <div class="duration">
+                      <ion-icon name="time-outline"></ion-icon>
+                      <time datetime="">1 hour 53 min</time>
+                    </div>
+                    <div class="rating">
+                      <ion-icon name="star"></ion-icon>
+                      <data>100%</data>
+                    </div>
+                  </div>
+                </div>
+              </li>
+
+              <!--ITEM 25-->
+              <li>
+                <div class="movie-card">
+                  <a href="#">
+                    <figure class="card-banner">
+                      <img src="../../images/Anime Movie/Movie/Alice to Therese no Maboroshi Koujou.jpg" alt="">
+                    </figure>
+                  </a>
+                  <div class="title-wrapper">
+                    <a href="../../html/Anime Movie/Movie Alice to Therese no Maboroshi Koujou.html">
+                      <h3 class="card-title">Alice to Therese no Maboroshi Koujou</h3>
+                    </a>
+                    <time datetime="">2023</time>
+                  </div>
+                  <div class="card-meta">
+                    <div class="badge badge-outline">100K</div>
+                    <div class="duration">
+                      <ion-icon name="time-outline"></ion-icon>
+                      <time datetime="">1 hour 50 min</time>
+                    </div>
+                    <div class="rating">
+                      <ion-icon name="star"></ion-icon>
+                      <data>100%</data>
+                    </div>
+                  </div>
+                </div>
+              </li>   
+
+          </ul>
+        </div>
+      </section>
+      <!-- 
+        - #CTA
+      -->
+    </article>
+  </main>
+
+  <!-- 
+    - #FOOTER
+  -->
+  <footer class="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="footer-brand-wrapper">
+          <a href="" class="logo">
+            <img src="../../images/HomePage/Design.png" alt="">
+          </a>
+          <ul class="footer-list">
+            <li>
+              <a href="#" class="footer-link">MOVIE</a>
+            </li>
+            <li>
+              <a href="#" class="footer-link">MOVIE SERIES</a>
+            </li>
+          </ul>
+        </div>
+        <div class="divider"></div>
+        <div class="quicklink-wrapper">
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <p class="copyright">
+          &copy; Made by <a href="#">YAZE FROST</a>
+        </p>
+        <img src="" >
+      </div>
+    </div>
+  </footer>
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="../../js/script.js"></script>
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+</html>

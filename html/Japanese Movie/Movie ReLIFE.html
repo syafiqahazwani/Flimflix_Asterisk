@@ -1,0 +1,194 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Filmflix Asterisk</title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="../../images/HomePage/logo.png" type="image/svg+xml">
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="../../css/style.css">
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+  <header class="header" data-header>
+    <div class="container">
+      <div class="overlay" data-overlay></div>
+      <a href="" class="logo">
+        <img src="../../images/HomePage/Design.png" alt="Film logo">
+      </a>
+      <div class="header-actions">
+        <button class="search-btn">
+          <ion-icon name="search-outline"></ion-icon>
+        </button>
+        <div class="lang-wrapper">
+          <label for="language">
+            <ion-icon name="globe-outline"></ion-icon>
+          </label>
+        </div>
+        <button class="btn btn-primary">Welcome</button>
+      </div>
+      <button class="menu-open-btn" data-menu-open-btn>
+        <ion-icon name="reorder-two"></ion-icon>
+      </button>
+      <nav class="navbar" data-navbar>
+        <div class="navbar-top">
+          <button class="menu-close-btn" data-menu-close-btn>
+            <ion-icon name="close-outline"></ion-icon>
+          </button>
+        </div>
+
+        <ul class="navbar-list">
+          <li>
+            <a href="../../HOME PAGE.html" class="navbar-link"><b>HOME PAGE</b></a></li>
+          <li>
+            <a href="#" class="menu-item" style="color: rgb(240, 240, 240)"><b>MOVIE COLLECTION</b></a>
+            <ul class="sub-menu">
+              <li class="menu-item"><a href="../Anime Movie/ANIME MOVIE.html"><b>ANIME MOVIE</b></a></li>
+              <li class="menu-item"><a href="../Japanese Movie/JAPANESE MOVIE.html"><b>JAPANESE MOVIE</b></a></li>
+              <li class="menu-item"><a href="../Korea Movie/KOREA MOVIE.html"><b>KOREA MOVIE</b></a></li>
+              <li class="menu-item"><a href="../English Movie/ENGLISH MOVIE.html"><b>ENGLISH MOVIE</b></a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#" class="menu-item" style="color: rgb(240, 240, 240)"><b>MOVIE SERIES</b></a>
+            <ul class="sub-menu">
+              <li class="menu-item"><a href="../Anime Movie Series/ANIME MOVIE SERIES.html"><b>ANIME MOVIE SERIES</b></a></li>
+            </ul>
+          </li>
+        </ul>
+
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <article>
+
+      <!-- 
+        - #MOVIE DETAIL
+      -->
+      <section class="movie-detail">
+        <div class="container">
+
+          <figure class="movie-detail-banner">
+            <img src="../../images/Japan Movie/ReLIFE Movie.jpeg" alt="Free guy movie poster">
+            <button class="play-btn">
+              <a style="color: rgb(252, 248, 248)" href="../../videos/Japan Movie/ReLIFE.mp4"><ion-icon name="play-circle-outline"></ion-icon></a>
+            </button>
+          </figure>
+
+          <div class="movie-detail-content">
+            <p class="detail-subtitle">JAPAN MOVIE</p>
+            <h1 class="h1 detail-title">
+              ReLIFE
+            </h1>
+
+            <div class="meta-wrapper">
+              <div class="badge-wrapper">
+                <div class="badge badge-fill">100%</div>
+                <div class="badge badge-outline">HD</div>
+              </div>
+
+              <div class="date-time">
+                <div>
+                  <ion-icon name="calendar-outline"></ion-icon>
+                  <time datetime="">2017</time>
+                </div>
+                <div>
+                  <ion-icon name="time-outline"></ion-icon>
+                  <time datetime="">2 hour</time>
+                </div>
+              </div>
+            </div>
+            <p class="storyline">
+              Japanese Film & Movie
+            </p>
+
+            <div class="details-actions">
+              <button class="share">
+                <ion-icon name="share-social"></ion-icon>
+              </button>
+              <div class="title-wrapper">
+                <p class="title">Watch Video</p>
+                <p class="text">Streaming Video</p>
+              </div>
+              <button class="btn btn-primary">
+                <a style="color: rgb(252, 248, 248)" href="../../videos/Japan Movie/ReLIFE.mp4"><ion-icon name="play"></ion-icon>
+                <span>Watch Now</span></a>
+              </button>
+            </div>
+            <a href="#" download class="download-btn">
+              <span>WATCH MOVIE ONLINE</span>
+              <ion-icon name="download-outline"></ion-icon>
+            </a>
+          </div>
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+  <!-- 
+    - #FOOTER
+  -->
+  <footer class="footer">
+    <div class="footer-top">
+      <div class="container">
+
+        <div class="footer-brand-wrapper">
+          <a href="" class="logo">
+            <img src="../../images/HomePage/Design.png" alt="">
+          </a>
+          <ul class="footer-list">
+            <li>
+              <a href="#" class="footer-link">MOVIE</a>
+            </li>
+            <li>
+              <a href="#" class="footer-link">MOVIE SERIES</a>
+            </li>
+          </ul>
+        </div>
+        <div class="divider"></div>
+        <div class="quicklink-wrapper">
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <p class="copyright">
+          &copy; Made by <a href="#">YAZE FROST</a>
+        </p>
+        <img src="" >
+      </div>
+    </div>
+  </footer>
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="../../js/script.js"></script>
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+</html>
